@@ -1,6 +1,6 @@
-# README
+# 🛰️PACESHIP
 
-Welcome to our 🛰️**PACESHIP**, a demonstration and practice repository for the PACE Data Hackweek.
+Welcome to our open science project, serving as a demonstration and practice repository for the PACE Data Hackweek.
 
 - **DEMONSTRATION**:
   The stages below offer an opinionated process for authoring an open science project that uses Python.
