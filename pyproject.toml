@@ -1,0 +1,16 @@
+[project]
+name = "paceship"
+version = "0.1.0"
+description = "A demonstration and practice project for the PACE Data Hackweek"
+readme = "README.md"
+authors = [
+    { name = "PACE Data Hackweek Participants" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "xarray>=2025.7.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
