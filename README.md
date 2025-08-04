@@ -1,5 +1,27 @@
 # 🛰️PACESHIP
 
+## Install
+
+Install from GitHub
+```
+pip install git+https://github.com/PACEHackWeek/paceship.git
+```
+
+Install from a local repo. Make sure you are in the `paceship` directory.
+```
+pip install -e .
+```
+
+## Examples
+
+* Create a box on a map of world that shows your study area.
+```
+import paceship
+paceship.simple_bbox(bbox, projection='Robinson')
+```
+
+## Tutorial
+
 Welcome to our open science project, serving as a demonstration and practice repository for the PACE Data Hackweek.
 
 - **DEMONSTRATION**:
@@ -11,7 +33,7 @@ Welcome to our open science project, serving as a demonstration and practice rep
 
 [tag]: https://git-scm.com/book/en/v2/Git-Basics-Tagging
 
-## DEMONSTRATION
+### DEMONSTRATION
 
 You can explore the state of this repository at any stage described below on GitHub (i.e. without needing a local clone)
 simply by following the `v0.x` links.
@@ -21,7 +43,7 @@ Instead, try following these stages from scratch for your own project!
 
 [template repository]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 
-### Stage 1 ([v0.1](../../tree/v0.1))
+#### Stage 1 ([v0.1](../../tree/v0.1))
 
 Create a code repository on GitHub[^1] and start composing a README in your browser.
 
@@ -37,7 +59,7 @@ You can edit this [GitHub Flavored Markdown][GFM] file and create a commit right
 [GFM]: https://docs.github.com/en/get-started/writing-on-github
 [^1]: Or use whatever website works for you and your collaborators! It may be another cloud platform (e.g. https://bitbucket.org/) or a platform hosted by your workplace (e.g. https://git.smce.nasa.gov).
 
-### Stage 2 ([v0.2](../../tree/v0.2))
+#### Stage 2 ([v0.2](../../tree/v0.2))
 
 Start authoring a Jupyter Notebook on the CryoCloud.
 
@@ -48,7 +70,7 @@ Start authoring a Jupyter Notebook on the CryoCloud.
 Nearly all projects will have notebooks, and some projects may only have notebooks!
 Keeping your notebooks in a subfolder makes your project ready for future complexification, and provides a dedicated area for "data" that are not a good fit for code repositories.
 
-### Stage 3 ([v0.3](../../tree/v0.3))
+#### Stage 3 ([v0.3](../../tree/v0.3))
 
 Change some of your code into functions or classes to allow re-use and improve modularity.
 Learn more about "[Defining Your Own Python Function]" Python functions in the Real Python lesson.
@@ -61,7 +83,7 @@ Open science projects often don't need classes, unless your project evolves into
 [Defining Your Own Python Function]: https://realpython.com/defining-your-own-python-function/
 [The Power of Object-Oriented Programming]: https://realpython.com/python-classes/
 
-### Stage 4 ([v0.4](../../tree/v0.4))
+#### Stage 4 ([v0.4](../../tree/v0.4))
 
 While Jupyter Notebooks are text-based (they are JSON files), they can have large binary outputs encoded as text and have other drawbacks when it comes to collaboration with git.
 Jupyter Notebooks also make it possible to execute workflows "out of order", leading to problems with reproducibility.
@@ -70,7 +92,7 @@ For both of these reasons, you may want to work with Shell or Python scripts for
 TODO:
 - scripts/png-to-s3 move figure to s3 temporary storage
 
-### Stage 5 ([v0.5](../../tree/v0.5))
+### #Stage 5 ([v0.5](../../tree/v0.5))
 
 So now you want to use a function or class in multiple notebooks?
 The most robust way forward&mdash;this seems like **a big deal** but is not&mdash;is to migrate your functions and classes to a Python package in the same project.
@@ -91,7 +113,7 @@ A package is something you can `import` in your notebooks, once it is made visib
     pip install -e .
     ```
 
-### Stage 6 ([v0.6](../../tree/v0.6))
+#### Stage 6 ([v0.6](../../tree/v0.6))
 
 Prepare for users and contributors!
 
@@ -101,14 +123,14 @@ TODO:
 - citation.cff
 - zenodo github integration
 
-## PRACTICE
+### PRACTICE
 
 You **should** fork this repository for practice contributing to an open science project.
 Consider adding a notebook or a script by dropping it into the 🛰️**PACESHIP** repository through a pull request.
 You could also add functions to the `src/paceship` folder containing the Python package .
 Like many projects, we include a CONTRIBUTING.md guide to support first-time contributors, so take a look and ask a hackweek mentor for friendly supervision if desired!
 
-## Acknowledgements
+### Acknowledgements
 
 We would like to thank the US-OCB office for sponsoring the PACE Data Hackweek, and to acknowledge all hackweek
 participants who improve this repository through feedback or contributions.
