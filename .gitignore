@@ -11,3 +11,6 @@ dist
 wheels
 *.egg-info
 /.python-version
+
+# Memory dumps
+core*
