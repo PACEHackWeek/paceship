@@ -1,3 +1,14 @@
+> [!NOTE]
+> If you want to use the `paceship` package without further ado, then install it from GitHub in your image!
+> ```
+> pip install git+https://github.com/PACEHackWeek/paceship
+> ```
+> And use it!
+> ```
+> import paceship
+> ?paceship.simple_bbox
+> ```
+
 # 🛰️PACESHIP
 
 Welcome to our open science project, serving as a demonstration and practice repository for the PACE Data Hackweek.
@@ -108,7 +119,13 @@ Consider adding a notebook or a script by dropping it into the 🛰️**PACESHIP
 You could also add functions to the `src/paceship` folder containing the Python package .
 Like many projects, we include a CONTRIBUTING.md guide to support first-time contributors, so take a look and ask a hackweek mentor for friendly supervision if desired!
 
-## Acknowledgements
+When working on the package from a local clone, install it from your clone in "editable" mode.
+First, make sure you are in the `paceship` directory, then:
+```
+pip install -e .
+```
+
+### Acknowledgements
 
 We would like to thank the US-OCB office for sponsoring the PACE Data Hackweek, and to acknowledge all hackweek
 participants who improve this repository through feedback or contributions.
