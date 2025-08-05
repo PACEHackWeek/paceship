@@ -1,5 +1,5 @@
 > [!NOTE]
-> If you want to use the `paceship` package without further ado, then install it from GitHub in your image!
+> If you want to use the `paceship` package without further ado, then install it from GitHub in your environment!
 > ```
 > pip install git+https://github.com/PACEHackWeek/paceship
 > ```
